@@ -22,7 +22,7 @@ After completion, you can log in to the console: https://console.aws.amazon.com/
   
      c. Click `▶` under `authentication` - `domain`, expand ACM authentication content, and add CNAME record to DNS configuration of domain (see part2 for DNS configuration mode). After saving CNAME, we need to wait for a while, ACM can only automatically verify after it takes effect.  
   
-  d. After verification, the status will change to issued, and the certificate can be used. Now you can switch the area to another area that you want to use.
+     d. After verification, the status will change to issued, and the certificate can be used. Now you can switch the area to another area that you want to use.
 
 **Advanced understanding**: www.example.org is the sub domain name, and example.org is the root domain name. Because to use CNAME, most domain name service providers do not support the form of root domain name CNAME, or can not use the form of root domain name MX and name: example.org at the same time. Therefore, in the above steps, you can only fill in the subdomain name `a086xxxx3c44448f11ad7. www` for verification, so ACM can visit `a086xxxx3c44448f11ad7. www.example.org` as long as you can get value of `b985b312234xxxxxxxf20dfdb.mzlfeqexyx.acm-validations.aws` can prove that you own this domain name.    
 
