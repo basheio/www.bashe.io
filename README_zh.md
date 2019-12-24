@@ -1,4 +1,4 @@
-# www.bashe.io 官方网站源文件，如果需要重新搭建请将其上传到亚马逊云，使用S3和cloudfront。
+www.bashe.io 官方网站源文件，如果需要重新搭建请将其上传到亚马逊云，使用S3和cloudfront。
 
 按照以下指南操作：
 
